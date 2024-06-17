@@ -1,0 +1,138 @@
+{
+  "menu": {
+    "link1": "Qui Suis-Je ?",
+    "link2": "Mes Compétences ?",
+    "link3": "Réalisations",
+    "link4": "Me Contacter",
+    "link5": "Télécharger Mon CV",
+    "link6": "langue"
+  },
+
+  "banner": {
+    "link1": "Bonjour , je suis",
+    "link2": "Développeur ",
+    "link3": "Front-End"
+  },
+  "skills": {
+    "Sectitle1": "Compétences Principales",
+    "Sectitle2": "Outils & environnement de",
+    "Sectitle3": "développement",
+    "Sectitle4": "Autre Compétences",
+    "Sectitle5": "Outils",
+    "Sectitle6": "Créatifs",
+    "projetTitleOne": "Projet En Cours",
+    "projetTitleTwo": "Développement d'une application similaire a TikTok",
+    "projetDescOne": "Une équipe de jeunes développeurs passionné dont j'en fais partie se sont mis ensemble pour créé un réseau social similaires et voir mieux que TikTok.",
+    "projetDescTwo": "Rejoindre le serveur discord si vous êtes partant pour cette aventure",
+    "projetDescThree": "Mise à jour de m'a plateforme en ligne tout les 3 mois et création de contenu sur youtube a se sujet et tous se qui tourne autour du développement informatique"
+  },
+  "descriptiont": {
+    "title1": "Je développe des interfaces web interactive avec ses différentes langages de programmation & technologies",
+    "title2": "Je réussis déjà a utilisé ses différentes technologies et framework pour interagir avec un serveur et une base de données de type relationnel (SQL)",
+    "title3": "J`utilise ses outils et environnement pour améliorer ma productivité , travailler a distance et suivre mon évolution.",
+    "title4": "J`utilise ses outils pour améliorer ma créativité et resté a jour dans le monde du design web, photo et vidéo",
+    "title5": "est utilise a but marketing avec son outil Facebook ads.",
+    "title6": "lui il m`aide dans le web, script vidéos ,optimisation etc.. et pour finir",
+    "title7": "qui lui récupère des données sur un site internet en fonction de ça configuration"
+  },
+  "Projects": {
+    "one": "Réalisations",
+    "twoo": "09 Projet Front-End",
+    "tree": "Réalisé Avec les ",
+    "tree2": " technologies",
+    "u": "univers de particules",
+    "ux": "Je me suis mis dans la peau d'un concepteur UI/UX pour .....",
+    "uxTitle": "Maquette web & prototype mobile",
+    "uxAction": "Télécharger les sources",
+    "uxDescription": "Je me suis mi dans la peau d'un UI/UX Designer pour comprendre leurs ressentis afin de mieux communiquer avec eux et de mieux leur comprendre au cas où je ferais équipe avec l'un d'eux, ce fut une expérience magnifique de la connaissance du logiciel jusqu'à la création de ces deux projets.",
+    "foor": "03 projet marketing & communication",
+    "Sectitle5": "Il étais question pour moi de partir d`une maquette figmat a une version web avec les technologies en déçus...",
+    "Sectitle6": "en savoir plus",
+    "Sectitle7": "Il étais question pour moi de partir d`une maquette figmat a une version web avec les technologies en déçus...",
+    "Sectitle8": "Il étais question pour moi de reproduire le portfolio d`un UX Designer et développeur avec des effets d`animation et  apparition au scool grâce au JavaScript",
+    "Sectitle9": "Il étais question pour moi de partir d`une maquette sur figmat pour un site en HTML CSS avec effets d`animation ....",
+    "Sectitle10": "Découvete de three js avec la réalisations d`univers de particules 3d avec JavaScript ....",
+    "Sectitle11": "Il étais question pour moi de reproduire le prototype du Portfolio en HTML CSS ....",
+    "Sectitle12": "Il était question pour de représenter des affiches d'une application sous format vidéo et photo avec les logiciels rotato et premier pro....",
+    "about": "À propos de rotato",
+    "titleRotato": "Affichage d'application mobile",
+    "RetourRotato": "Retour",
+    "crudTitle": "Application de gestion d'articles",
+    "crudDescription": "Il était question pour d'apprendre a créé une application de gestion d'articles qui est segmenté en deux dossiers distin Fron-end et back-end se qui la permis de comprendre comment créé et consommé un API provenant du back-end en utilisant le logiciel postman pour testé les API,node js express MySQL pour le back-end et réact JS pour le front-end.cela la dit j'ai utilisé différents dépendance comme axios, react-router-dom etc",
+    "crudAction": "voir le code souces",
+    "alibiaTitlev1": "Site web alibia version 1",
+    "alibiaActionv1": "Voir la  version actuelle en ligne",
+    "propTitle": "Il était question pour moi après la formation nextjs de solidifier les bases grâce a un petit travaux pratiques...",
+    "prop": "Il était question pour moi après la formation nextjs de solidifier les bases grâce a un petit travaux pratiques qui consistait a utiliser les clients components et serveur components de next js pour construire une petite application..",
+    "alibiadescriptonv1": "Ici est un projet personnel qui a eu deux versions dont celle si est la première qui est un site qui représente ma start-up en ligne de produits et services informatiques de niche"
+  },
+  "Marketing": {
+    "Sectitle1": "Il étais question pour moi de sortir un script vidéo pressi et cours grâce a I.A pour faire une petite introduction au web 3...",
+    "Sectitle2": "Il était question pour moi de création et de configuration d`une page Facebook couplé a un compte Instagram professionnel...",
+    "Sectitle3": "Il était question pour moi de lancé des publicitées Facebook d`un produit a une période précis de l`année et ....."
+  },
+  "FullStack": {
+    "Sectitle1": "05 Projets FullStack + ",
+    "Sectitle2": "marketing & communication pour les deux derniers ",
+    "Sectitle6": "en savoir plus",
+    "Sectitle7": "Plus De Projet Sur",
+    "Sectitle8": "Veille technologique tendance marketing & design (web | mobile)",
+    "Sectitle9": "HOBIES & PASSE TEMPS",
+    "descriptionOne": "Ici est un projet personnel qui a eu deux versions dont celle si est la première qui est ...",
+    "descriptionTwo": "Ici est un projet personnel qui a eu deux versions dont celle si est la deuxième qui est ....",
+    "crudDescription": "Il était question pour d'apprendre a créé une application de gestion d'articles qui est segmenté en deux dossiers distin...."
+  },
+
+  "modal": {
+    "Moretitle1": "bonjour monsieur , madame je serais très ravie de travailler avec vous",
+    "Moreitle2": "Retour",
+    "Moretitle3": "Lettre De Motivation",
+    "Moretitle4": "CV De Type Canadiens",
+    "Moretitle5": "CV De Type Français"
+  },
+
+  "Footer": {
+    "Moretitle1": "RÉSEAUX SOCIAUX",
+    "Moreitle2": "Me retrouver",
+    "Moretitle3": "Me Contacter",
+    "Moretitle4": "Si vous êtes une entreprise ou un  particulier et que vous souhaitez me confier votre projet, vous avez juste a remplir se formulaire Merci ",
+    "Moretitle5": "Envoyer",
+    "Moretitle6": "Nom et prénom",
+    "Moretitle7": "Intégration et développement Tsopze nekdem Phanuel arsene"
+  },
+  "aboutFront": {
+    "back": "Retour",
+    "see": "Voir le site",
+    "titleOne": "Site de plante",
+    "descriptiontOne": "Il était question pour moi de partir d`une maquette figmat a une version web Avec Les technologies tailwindcss qui est un framework CSS react js couplé a typescript ajoute d`animation tout en gérant le responsive design.",
+    "titleTwo": "Site D`Agence Digital",
+    "descriptiontTwo": "Il était question pour moi de partir d'une maquette figmat a une version web Avec Les technologies HTML5 tailwindcss qui est un framework CSS pour créer un site d'agence digital tout en gérant le responsive.",
+    "titleTree": "Site De Mark Antony",
+    "descriptiontTree": "Il était question pour moi de produire le portfolio d`un UX Designer avec des effets d`animation avec le JavaScript sans oublier le responsive ça capacité a s`adapter sur tablette dextop et smartphone.",
+    "titleFoor": "Site De Café",
+    "descriptiontFoor": "Il étais question pour moi de partir d`une maquette sur figmat pour un site en HTML CSS avec effets d`animation tout en gérant le responsive design.",
+    "titleFive": "Site Portfolio",
+    "descriptiontFive": "Il étais question pour moi de reproduire le prototype du Portfolio en HTML CSS.",
+    "titleSix": "Univers De Particules",
+    "DescrioptionSix": "Découvete de three js avec la réalisations d`univers de particules 3d avec JavaScript .",
+    "isdevexpertTitle": "Site de présentation d'application mobile",
+    "isdevexpertDesceiption": "Il était question pour moi de créé une interface web pour l'entreprise IS DEV EXPERTS qui allait représenté leurs applications mobiles"
+  },
+  "aboutMarketing": {
+    "back": "Retour",
+    "see": "see the project",
+    "titleOne": "Introduction au web 3",
+    "descriptiontOne": "Il étais question pour moi de sortir un script vidéo pressi et cours grâce a I.A pour faire une petite introduction au web 3.",
+    "titleTwo": "Pages Facebook et compte Instagram professionnel",
+    "descriptiontTwo": "Il était question pour moi de création et de configuration d`une page Facebook couplé a un compte Instagram professionnel.",
+    "otherOne": "Voir la page Facebook",
+    "otherTwo": "Voir le compte Instagram",
+    "titleOnes": " Lancement d'une publicité Facebook",
+    "titleTwos": "Campagne publicitaire principale",
+    "titleTrees": "Ensemble de publicité ou est reparti le budget publicitaire",
+    "pub": "Publicité",
+    "Ai": " Texte marketing rédigé Avec ChatGPT (IA)",
+    "results": " Résultats de la campagne",
+    "similaire": "Autre Porjet Similaire"
+  }
+}
