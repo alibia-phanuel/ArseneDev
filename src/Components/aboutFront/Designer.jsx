@@ -1,11 +1,10 @@
 import Resaux from "../Resaux";
 import Footer from "../Footer";
-
 import videoOne from "../../assets/ve/pcuxviseo.mp4";
 import videoTwoo from "../../assets/ve/TpUxMobile.mp4";
-
 import imageOne from "../../assets/ve/pcUX.png";
 import imageTwoo from "../../assets/ve/mobilUX.png";
+
 import { useTranslation } from "react-i18next";
 
 const Designer = () => {
@@ -50,7 +49,7 @@ const Designer = () => {
               <source src={videoOne} type="video/mp4" />
             </video>
           </div>
-          <div className="rounded-lg w-[640px]">
+          <div className="rounded-lg">
             <img
               className="rounded-lg border border-[#FFD43B]"
               src={imageOne}
@@ -69,7 +68,7 @@ const Designer = () => {
               <source src={videoTwoo} type="video/mp4" />
             </video>
           </div>
-          <div className="rounded-lg  w-[640px]">
+          <div className="rounded-lg">
             <img
               className="rounded-lg border border-[#FFD43B]"
               src={imageTwoo}

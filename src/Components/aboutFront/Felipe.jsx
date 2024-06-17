@@ -6,7 +6,6 @@ import Footer from "../Footer";
 import { useTranslation } from "react-i18next";
 function Felipe() {
   const { t } = useTranslation();
-
   const { back, see, titleFive, descriptiontFive } = t("aboutFront");
   return (
     <div className=" bg-[#313552]">

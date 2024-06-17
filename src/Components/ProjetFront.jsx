@@ -14,7 +14,7 @@ import tailwind from "../assets/tailwind.png";
 import next from "../assets/nextjs.png";
 import acc from "../assets/tailwindCss/acc.png";
 import three from "../assets/three.png";
-import video from "../assets/videos/videphone.mp4";
+import intro from "../assets/videos/intros.mp4";
 import projet from "../assets/plante/project.png";
 import webUx from "../assets/ve/pcuxviseo.mp4";
 //Tranduction dependances
@@ -108,7 +108,7 @@ function ProjetFront() {
                     autoPlay
                     loop
                   >
-                    <source src={video} type="video/mp4" />
+                    <source src={intro} type="video/mp4" />
                   </video>
                 </div>
 
