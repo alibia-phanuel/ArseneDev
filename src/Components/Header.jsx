@@ -10,7 +10,7 @@ function Header() {
   const [modalOpen, setModalOpen] = useState(false);
   return (
     <>
-      <div className=" bg-[#313552] flex  justify-center  items-center font-[roboto] py-4 px-6 fixed w-full z-50 shadow-xl">
+      <div className=" bg-[#313552] flex  justify-center  items-center font-[roboto] py-4 px-6  w-full z-50 shadow-xl">
         <nav className="container  text-[#ffffff] relative capitalize flex justify-between items-center max-[446px]:gap-2 flex-wrap">
           <div className=" italic  font-bold text-[30px] text-[#FFD43B]">
             <a href="/">AT</a>
