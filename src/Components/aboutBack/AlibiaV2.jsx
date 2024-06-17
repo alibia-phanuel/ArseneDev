@@ -74,7 +74,7 @@ function AlibiaV2() {
             </div>
             <div className="flex justify-center items-center gap-2 ">
               <div className="w-[12px] bg-green-500 h-[12px] rounded-full"></div>
-              <a href="" target="_blanc">
+              <a href="https://alibia.net/" target="_blanc">
                 voir le site
               </a>
             </div>
