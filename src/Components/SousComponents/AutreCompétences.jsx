@@ -3,6 +3,7 @@ import ps from "../../assets/ps.png";
 import pr from "../../assets/pr.png";
 import audition from "../../assets/audition.png";
 import meta from "../../assets/meta.png";
+import { motion } from "framer-motion";
 //Tranduction dependances
 import { useTranslation } from "react-i18next";
 function AutreCompétences() {
@@ -19,7 +20,17 @@ function AutreCompétences() {
           {Sectitle4}
         </h1>
         <div className="skils font-[roboto] flex  gap-4 flex-wrap">
-          <div className="w-[450px] hover:translate-y-[-25px] transition-all max-w-full border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            className="w-[450px] hover:translate-y-[-25px] transition-all max-w-full border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg "
+          >
             <div className="icones-language flex items-center gap-4 flex-wrap">
               <div className="w-[43px] h-[43px] flex justify-center items-center">
                 <svg
@@ -91,9 +102,19 @@ function AutreCompétences() {
               {Sectitle5} <span className="text-[#FFD43B]"> {Sectitle6}</span>
             </div>
             <div className="description">{title4}</div>
-          </div>
+          </motion.div>
 
-          <div className="w-[450px] hover:translate-y-[-25px] transition-all max-w-full border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.5 }}
+            variants={{
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            className="w-[450px] hover:translate-y-[-25px] transition-all max-w-full border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg "
+          >
             <div className="icones-language flex items-center gap-4 flex-wrap">
               <div
                 title="est une multinationale américaine fondée en 2004 par Mark Zuckerberg."
@@ -170,7 +191,7 @@ function AutreCompétences() {
               </span>{" "}
               {title7}
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

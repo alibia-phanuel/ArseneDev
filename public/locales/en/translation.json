@@ -133,5 +133,17 @@
     "Ai": " Marketing text written with ChatGPT (IA)",
     "results": "Campaign results",
     "similaire": "Other Similar Project"
+  },
+  "alibia": {
+    "voir": "See the website",
+    "intro": "Passionate about computers since my childhood, creating a startup in this field has always been my dream and in the video below I set myself a challenge to achieve it with code good viewing 📽",
+    "frontTitlte": "Why these technologies?",
+    "frontDes": "Here are the technologies and some of the major dependencies used for this project. The reason for choosing these different technologies is that I intend to make a mobile version with native reactors.",
+    "frontTech": "Technologies",
+    "backtitlteOne": "Back-End & Tools",
+    "backtitlteTwo": "Technology",
+    "backtitlteDesc": "Here are the technologies and tools used on the back-end",
+    "Marketing": "For all digital marketing, Facebook ads and Google analytics are just the thing. YouTube for communication",
+    "Conclusion": "It was an extraordinary adventure in which not only did my programming skills improve, but I also learned about how companies and start-ups work."
   }
 }

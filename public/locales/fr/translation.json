@@ -27,10 +27,10 @@
     "projetDescThree": "Mise à jour de m'a plateforme en ligne tout les 3 mois et création de contenu sur youtube a se sujet et tous se qui tourne autour du développement informatique"
   },
   "descriptiont": {
-    "title1": "Je développe des interfaces web interactive avec ses différentes langages de programmation & technologies",
-    "title2": "Je réussis déjà a utilisé ses différentes technologies et framework pour interagir avec un serveur et une base de données de type relationnel (SQL)",
-    "title3": "J`utilise ses outils et environnement pour améliorer ma productivité , travailler a distance et suivre mon évolution.",
-    "title4": "J`utilise ses outils pour améliorer ma créativité et resté a jour dans le monde du design web, photo et vidéo",
+    "title1": "Je développe des interfaces web interactive avec ces différentes langages de programmation & technologies",
+    "title2": "Je réussis déjà a utilisé ces différentes technologies et framework pour interagir avec un serveur et une base de données de type relationnel (SQL)",
+    "title3": "J`utilise ces outils et environnement pour améliorer ma productivité , travailler a distance et suivre mon évolution.",
+    "title4": "J`utilise ces outils pour améliorer ma créativité et resté a jour dans le monde du design web, photo et vidéo",
     "title5": "est utilise a but marketing avec son outil Facebook ads.",
     "title6": "lui il m`aide dans le web, script vidéos ,optimisation etc.. et pour finir",
     "title7": "qui lui récupère des données sur un site internet en fonction de ça configuration"
@@ -134,5 +134,17 @@
     "Ai": " Texte marketing rédigé Avec ChatGPT (IA)",
     "results": " Résultats de la campagne",
     "similaire": "Autre Porjet Similaire"
+  },
+  "alibia": {
+    "voir": "Voir Le Site",
+    "intro": "Passionné par l`informatique depuis mon enfance créé une startup dans se domaine a toujours été mon rêve et dans la vidéo si dessous je me suis lancé un challenge de le réaliser avec du code bon visionnage 📽",
+    "frontTitlte": "Pourquoi Ces Technologies ?",
+    "frontDes": "Voici les technologies et quelque dépendance majeure utilisée pour ce projet. Ce qui justifie le choix de ces différentes technologies est que je compte en faire une version mobile avec réact natives.",
+    "frontTech": "Technologies",
+    "backtitlteOne": "Back-End & Outils",
+    "backtitlteTwo": "Technologies",
+    "backtitlteDesc": "Voici les technologies et outils utilisés en back-end",
+    "Marketing": "Pour tout ce qui est le marketing digital Facebook ads & Google analytique sont configurer pour ça. YouTube pour la communication",
+    "Conclusion": "Se fut une aventure extraordinaire dans le sans ou non seulement mes compétences en programmation on augmenter, mais aussi j`ai appris sur le fonctionnement des entreprises et le milieu des Start-ups"
   }
 }
