@@ -1,13 +1,11 @@
-import { useState } from "react";
-import Modal from "./Modal";
 //Tranduction dependances
 
 import { useTranslation } from "react-i18next";
 import LangueSelector from "./SousComponent/LangueSelector";
 function Header() {
   const { t } = useTranslation();
-  const { link1, link2, link3, link4, link5 } = t("menu");
-  const [modalOpen, setModalOpen] = useState(false);
+  const { link1, link2, link3, link4 } = t("menu");
+
   return (
     <>
       <div className=" bg-[#313552] flex  justify-center  items-center font-[roboto] py-4 px-6  w-full z-50 shadow-xl">
@@ -32,14 +30,6 @@ function Header() {
             </ul>
           </div>
           <div className="flex gap-4 items-center py-2">
-            <div
-              onClick={() => {
-                setModalOpen(true);
-              }}
-              className="text-[15px] border p-2 max-[446px]:p-2 rounded-lg hover:text-[#313552] cursor-pointer hover:bg-[#FFD43B] border-[#FFD43B] hover:border-[#2d2d2d] font-bold  transition-all ease-in-out"
-            >
-              {link5}
-            </div>
             {/**langue */}
             <LangueSelector />
           </div>
@@ -61,7 +51,6 @@ function Header() {
           </div>
         </nav>
       </div>
-      {modalOpen && <Modal setOpenModal={setModalOpen} />}
     </>
   );
 }
