@@ -62,23 +62,9 @@ function ProjetFront() {
   }, []);
 
   const { t } = useTranslation();
-  const {
-    twoo,
-    tree,
-    tree2,
-    u,
-    ux,
-    Sectitle5,
-    Sectitle7,
-    Sectitle8,
-    Sectitle9,
-    Sectitle10,
-    Sectitle11,
-  } = t("Projects");
+  const { twoo, tree, tree2, u } = t("Projects");
   const { Sectitle6 } = t("FullStack");
 
-  const { Sectitle12 } = t("Projects");
-  const { isdevexpertDesceiption } = t("aboutFront");
   return (
     <div className="bg-no-repeat  bg-fixed  bg-center bg-cover  w-[100%] bg-[#313552] py-[100px]">
       <div className="w-full font-[roboto] h-full  flex justify-center items-center px-4">
@@ -98,7 +84,7 @@ function ProjetFront() {
               dragConstraints={{ right: 0, left: -width }}
               className="inner-carousel flex gap-4 bg-[#221C27] "
             >
-              <div className="w-[450px] min-w-[30rem]  group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px] flex flex-col justify-between min-w-[30rem]  group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full overflow-hidden ">
                   <video
                     className="group-hover:scale-[1.1]  transition-all"
@@ -168,7 +154,6 @@ function ProjetFront() {
                   </div>
                 </div>
 
-                <div className="description my-3">{Sectitle12}</div>
                 <button
                   onClick={rotato}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552] "
@@ -177,7 +162,7 @@ function ProjetFront() {
                 </button>
               </div>
               {/**isdev expert */}
-              <div className="w-[450px] min-w-[30rem]  group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px] flex flex-col justify-between min-w-[30rem]  group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full overflow-hidden ">
                   <video
                     className="group-hover:scale-[1.1]  transition-all"
@@ -249,7 +234,6 @@ function ProjetFront() {
                   </div>
                 </div>
 
-                <div className="description my-3">{ux}</div>
                 <button
                   onClick={Designer}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552] "
@@ -260,7 +244,7 @@ function ProjetFront() {
 
               {/**isdev expert */}
               {/**Fin adobe xd projet */}
-              <div className="w-[450px] min-w-[30rem]  group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px]  flex flex-col justify-between min-w-[30rem]  group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full overflow-hidden ">
                   <img
                     src={projet}
@@ -293,7 +277,6 @@ function ProjetFront() {
                   </div>
                 </div>
 
-                <div className="description my-3">{isdevexpertDesceiption}</div>
                 <button
                   onClick={isdevexperts}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552] "
@@ -302,7 +285,7 @@ function ProjetFront() {
                 </button>
               </div>
               {/**Fin adobe xd projet */}
-              <div className="w-[450px] min-w-[30rem]  group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px] flex flex-col justify-between min-w-[30rem]  group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full overflow-hidden ">
                   <img
                     src={plante}
@@ -361,7 +344,6 @@ function ProjetFront() {
                   </div>
                 </div>
 
-                <div className="description my-3">{Sectitle5}</div>
                 <button
                   onClick={handleClick}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552] "
@@ -370,7 +352,7 @@ function ProjetFront() {
                 </button>
               </div>
 
-              <div className="w-[450px] min-w-[30rem] group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px] flex flex-col justify-between min-w-[30rem] group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full overflow-hidden ">
                   <img
                     src={acc}
@@ -413,7 +395,6 @@ function ProjetFront() {
                   </div>
                 </div>
 
-                <div className="description my-3">{Sectitle7}</div>
                 <button
                   onClick={digital}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"
@@ -422,7 +403,7 @@ function ProjetFront() {
                 </button>
               </div>
 
-              <div className="w-[450px] group  min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px] flex flex-col justify-between group  min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full  rounded overflow-hidden">
                   <img
                     src={folio}
@@ -457,7 +438,6 @@ function ProjetFront() {
                   </div>
                 </div>
 
-                <div className="description my-3">{Sectitle8}</div>
                 <button
                   onClick={Mark}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"
@@ -465,7 +445,7 @@ function ProjetFront() {
                   {Sectitle6}
                 </button>
               </div>
-              <div className=" w-[450px] group  min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className=" w-[450px] flex flex-col justify-between group  min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full overflow-hidden ">
                   <img
                     src={html1}
@@ -504,7 +484,6 @@ function ProjetFront() {
                   </div>
                 </div>
 
-                <div className="description my-3">{Sectitle9}</div>
                 <button
                   onClick={coofe}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"
@@ -513,7 +492,7 @@ function ProjetFront() {
                 </button>
               </div>
 
-              <div className=" w-[450px] min-w-[30rem]   group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className=" w-[450px] flex flex-col justify-between min-w-[30rem]   group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full  overflow-hidden ">
                   <img
                     src={univers}
@@ -546,7 +525,6 @@ function ProjetFront() {
                   </div>
                 </div>
 
-                <div className="description my-3">{Sectitle10}</div>
                 <button
                   onClick={ThreeJs}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"
@@ -554,7 +532,7 @@ function ProjetFront() {
                   {Sectitle6}
                 </button>
               </div>
-              <div className="w-[450px] min-w-[30rem] group border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px] flex flex-col justify-between min-w-[30rem] group border  border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full overflow-hidden ">
                   <img
                     src={html2}
@@ -583,7 +561,6 @@ function ProjetFront() {
                   </div>
                 </div>
 
-                <div className="description my-3">{Sectitle11}</div>
                 <button
                   onClick={Felipe}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"

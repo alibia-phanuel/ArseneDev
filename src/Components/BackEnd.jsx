@@ -36,15 +36,8 @@ function BackEnd() {
     navigae("/promptopia");
   }
   const { t } = useTranslation();
-  const {
-    Sectitle1,
-    Sectitle2,
-    Sectitle6,
-    descriptionOne,
-    descriptionTwo,
-    crudDescription,
-  } = t("FullStack");
-  const { tree, tree2, propTitle } = t("Projects");
+  const { Sectitle1, Sectitle2, Sectitle6 } = t("FullStack");
+  const { tree, tree2 } = t("Projects");
   const [width, setWidth] = useState(0);
   const carousel = useRef();
   const analytics =
@@ -71,7 +64,7 @@ function BackEnd() {
               dragConstraints={{ right: 0, left: -width }}
               className="inner-carousel flex gap-4 bg-[#221C27] "
             >
-              <div className="w-[450px] group min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px] flex flex-col justify-between group min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full  rounded overflow-hidden">
                   <img
                     src={promtopia}
@@ -138,7 +131,6 @@ function BackEnd() {
                   </div>
                 </div>
 
-                <div className="description my-3">{propTitle}</div>
                 <button
                   onClick={Promptopia}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"
@@ -148,7 +140,7 @@ function BackEnd() {
               </div>
 
               {/**PROMTOPIA */}
-              <div className="w-[450px] group min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px] flex flex-col justify-between group min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full  rounded overflow-hidden">
                   <img
                     src={crud}
@@ -316,7 +308,6 @@ function BackEnd() {
                   </div>
                 </div>
 
-                <div className="description my-3">{crudDescription}</div>
                 <button
                   onClick={Crud}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"
@@ -326,7 +317,7 @@ function BackEnd() {
               </div>
 
               {/**CRUD */}
-              <div className="w-[450px] group min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px] flex flex-col justify-between group min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full  rounded overflow-hidden">
                   <img
                     src={alibiav1}
@@ -405,7 +396,6 @@ function BackEnd() {
                   </div>
                 </div>
 
-                <div className="description my-3">{descriptionOne}</div>
                 <button
                   onClick={Alibiav1}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"
@@ -413,7 +403,7 @@ function BackEnd() {
                   {Sectitle6}
                 </button>
               </div>
-              <div className="group w-[450px] min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="group w-[450px] flex flex-col justify-between min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full overflow-hidden ">
                   <img
                     src={alibiaNew}
@@ -658,7 +648,6 @@ function BackEnd() {
                   </div>
                 </div>
 
-                <div className="description my-3">{descriptionTwo}</div>
                 <button
                   onClick={Alibiav2}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"

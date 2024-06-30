@@ -18,7 +18,7 @@ import videos from "../assets/marketing/videos.png";
 import { useRef, useEffect, useState } from "react";
 function ProjetMarketin() {
   const { t } = useTranslation();
-  const { Sectitle1, Sectitle2, Sectitle3 } = t("Marketing");
+
   const { foor, Sectitle6, tree, tree2 } = t("Projects");
   const [width, setWidth] = useState(0);
   const carousel = useRef();
@@ -39,7 +39,7 @@ function ProjetMarketin() {
   return (
     <div className="bg-no-repeat  bg-fixed  bg-center bg-cover  w-[100%] bg-[#313552] font-[roboto] py-[100px]">
       <div className="w-full h-full  flex justify-center items-center px-4">
-        <div className=" w-full container  flex  justify-center flex-col relative  ">
+        <div className=" w-full container  flex  justify-center flex-col relative">
           <h1
             className="roboto text-[#FFD43B] text-[20px] mb-9 font-bold  capitalize"
             id="Réalisations "
@@ -55,7 +55,7 @@ function ProjetMarketin() {
               dragConstraints={{ right: 0, left: -width }}
               className="inner-carousel flex gap-4 bg-[#221C27] "
             >
-              <div className="w-[450px] group min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px] flex flex-col justify-between group min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full overflow-hidden ">
                   <img
                     src={videos}
@@ -141,7 +141,6 @@ function ProjetMarketin() {
                   </div>
                 </div>
 
-                <div className="description my-3">{Sectitle1}</div>
                 <button
                   onClick={video}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"
@@ -150,7 +149,7 @@ function ProjetMarketin() {
                 </button>
               </div>
 
-              <div className="w-[450px] group min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="w-[450px] flex flex-col justify-between group min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full  rounded overflow-hidden">
                   <img
                     src={marketing}
@@ -187,7 +186,6 @@ function ProjetMarketin() {
                   </div>
                 </div>
 
-                <div className="description my-3">{Sectitle2}</div>
                 <button
                   onClick={page}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"
@@ -195,7 +193,7 @@ function ProjetMarketin() {
                   {Sectitle6}
                 </button>
               </div>
-              <div className="group w-[450px] min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
+              <div className="group w-[450px] flex flex-col justify-between min-w-[30rem] border border-[#FFD43B] hover:border-[#ffffff]  p-10 cursor-pointer text-white bg-[#221C27] shadow-lg ">
                 <div className="w-full overflow-hidden ">
                   <img
                     src={banner}
@@ -260,7 +258,6 @@ function ProjetMarketin() {
                   </div>
                 </div>
 
-                <div className="description my-3">{Sectitle3}</div>
                 <button
                   onClick={pub}
                   className="border border-[#FFD43B] p-4 rounded capitalize mt-4 hover:bg-[#313552]"
